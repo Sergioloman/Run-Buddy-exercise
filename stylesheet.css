@@ -63,3 +63,15 @@ body {
   footer a {
     color: #024e76;
   }
+  /* lets change the padding for all the sections so its uniform*/
+  section {
+    Padding: 60px;
+    
+  }
+  /* now we are going to style our hero and the form */
+  .hero {
+    background-image: url("../run-buddy/assets/hero-bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+  }
