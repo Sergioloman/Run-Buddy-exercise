@@ -74,4 +74,48 @@ body {
     height: 600px;
     background-size: cover;
     background-position: center;
+    position: relative;
+  }
+  /*lets style the hero form*/
+  .hero-form {
+    background-color: #fce138;
+    color: #024e76;
+    padding: 20px;
+    width: 500px;
+    border-style: groove;
+    border-color: #024e76;
+    border-width: 3px;
+    position:absolute;
+    bottom: 230px;
+    right: 50px;
+  }
+  h3 {
+    margin: 0px;
+    font-size: 150%;
+  
+  }
+  .hero-form p {
+    margin: 5px 0 5px 0
+  }
+ 
+  .form-input {
+    border: 2px solid #024e76;
+    display: block;
+    padding: 7px 15 px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+
+
+  } 
+  .hero-form label {
+    margin: 0 5px
+  }
+  .hero-form button {
+    padding: 10px 10px;
+    background-color: #024e76;
+    color: #fce138;
+    border: none;
+    font-size: 16px;
   }
